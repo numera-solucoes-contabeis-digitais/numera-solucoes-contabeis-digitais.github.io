@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap');
+:root { --coral: #FF6B4A; --cinza: #4A4A4A; --claro: #F6F6F6; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Open Sans', Arial, sans-serif; color: var(--cinza); background: #fff; line-height: 1.6; font-size: 16px; }
+.faixa { height: 6px; background: var(--coral); }
+main { max-width: 760px; margin: 0 auto; padding: 48px 24px 64px; }
+.logo { width: 220px; height: auto; display: block; margin-bottom: 40px; }
+h1, h2 { font-family: 'Montserrat', Arial, sans-serif; color: var(--cinza); line-height: 1.25; }
+h1 { font-size: 30px; margin: 0 0 16px; }
+h2 { font-size: 19px; margin: 32px 0 8px; }
+p, li { margin: 0 0 12px; }
+a { color: var(--coral); }
+.destaque { border-left: 4px solid var(--coral); background: var(--claro); padding: 16px 20px; margin: 28px 0; }
+footer { border-top: 1px solid #e5e5e5; margin-top: 48px; padding-top: 20px; font-size: 14px; }
